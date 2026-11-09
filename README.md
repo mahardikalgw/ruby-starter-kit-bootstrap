@@ -14,7 +14,7 @@ Version `2.0.0` tracks the source constitution.
   "version": 1,
   "skills": {
     "starter-kit-bootstrap": {
-      "source": "mahardikalgw/starter-kit-bootstrap",
+      "source": "mahardikalgw/ruby-starter-kit-bootstrap",
       "sourceType": "github",
       "skillPath": "SKILL.md"
     }
@@ -25,8 +25,8 @@ Version `2.0.0` tracks the source constitution.
 Or clone and symlink:
 
 ```bash
-git clone git@github.com:mahardikalgw/starter-kit-bootstrap.git
-ln -s "$PWD/starter-kit-bootstrap" .claude/skills/starter-kit-bootstrap
+git clone git@github.com:mahardikalgw/ruby-starter-kit-bootstrap.git
+ln -s "$PWD/ruby-starter-kit-bootstrap" .claude/skills/starter-kit-bootstrap
 ```
 
 ## When to activate
@@ -38,8 +38,9 @@ ln -s "$PWD/starter-kit-bootstrap" .claude/skills/starter-kit-bootstrap
 ## What's inside
 
 ```
-starter-kit-bootstrap/
+ruby-starter-kit-bootstrap/
   SKILL.md
+  bin/check-skill
   references/day-zero-checklist.md
 ```
 
@@ -58,11 +59,11 @@ repository — that vendored scripts still match it byte for byte. Runs in CI on
 
 ## Related skills
 
-- [`speckit-feature-lifecycle`](https://github.com/mahardikalgw/speckit-feature-lifecycle) — specify → clarify → plan → tasks → implement → analyze → converge
-- [`flat-ui-contract`](https://github.com/mahardikalgw/flat-ui-contract) — INV-1…INV-9 and THEME-1…3, with both gate scripts vendored
-- [`merge-gate-parity`](https://github.com/mahardikalgw/merge-gate-parity) — one gate list in every file, a script contract, and local/CI triage
-- [`postgres-pgvector-baseline`](https://github.com/mahardikalgw/postgres-pgvector-baseline) — PostgreSQL 16 + pgvector everywhere, Solid stores, the fresh-clone traps
-- [`idempotent-demo-seeds`](https://github.com/mahardikalgw/idempotent-demo-seeds) — deterministic seeds that survive replanting, and the test-env pairing
+- [`speckit-feature-lifecycle`](https://github.com/mahardikalgw/ruby-speckit-feature-lifecycle) — specify → clarify → plan → tasks → implement → analyze → converge
+- [`flat-ui-contract`](https://github.com/mahardikalgw/ruby-flat-ui-contract) — INV-1…INV-9 and THEME-1…3, with both gate scripts vendored
+- [`merge-gate-parity`](https://github.com/mahardikalgw/ruby-merge-gate-parity) — one gate list in every file, a script contract, and local/CI triage
+- [`postgres-pgvector-baseline`](https://github.com/mahardikalgw/ruby-postgres-pgvector-baseline) — PostgreSQL 16 + pgvector everywhere, Solid stores, the fresh-clone traps
+- [`idempotent-demo-seeds`](https://github.com/mahardikalgw/ruby-idempotent-demo-seeds) — deterministic seeds that survive replanting, and the test-env pairing
 
 ## Licence
 
